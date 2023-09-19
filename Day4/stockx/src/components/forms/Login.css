@@ -1,0 +1,13 @@
+.link{
+    color: rgb(126, 87, 15);
+}
+.background
+{
+  background-image: linear-gradient(black 50%,orange 50%);
+  height: 100%;
+}
+#box
+{
+  background-color:lightblue;
+  border-radius: 2rem;
+}

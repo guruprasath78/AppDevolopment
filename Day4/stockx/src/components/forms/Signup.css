@@ -1,0 +1,12 @@
+.mb-3 {
+    width: 20rem;
+  }
+.background
+{
+  background-image: linear-gradient(to right,black 50%,orange 50%);
+}
+#formbox
+{
+  background-color:lightgrey;
+  border-radius: 3rem;
+}
