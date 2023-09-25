@@ -1,0 +1,135 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+.bg1
+{
+    background-color: lightcyan;
+    padding: 0 20px 0 20px;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#signup
+{
+    width: 1000px;
+    height: 600px;
+    border-radius:10px ;
+    background: #fff;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+.img{
+    
+    background-image: url(signup.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.input.box
+{
+    width: 330px;
+    box-sizing: border-box;
+}
+.error
+{
+    color: red;
+}
+header{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10px 0 10px;
+}
+.input{
+    height: 45px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    outline: none;
+    margin-bottom: 20px;
+    color: #40414a;
+
+}
+.label{
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: .5s;
+
+}
+.label-focus{
+
+    top: -10px;
+    font-size: 13px;
+  
+}
+.label-valid{
+
+    top: -10px;
+    font-size: 13px;
+    color: #5d5076;
+}
+.input-field .input-focus,.input-valid .input-valid ~label{
+    border-bottom: 1px solid #743ae1;
+}
+.submit{
+    border: none;
+    outline: none;
+    height: 45px;
+    background: #ececec;
+    border-radius: 5px;
+    transition: .4s;
+}
+.submit:hover{
+    background: rgba(37,95,156,0.1,);
+    color: #fff;
+}
+.signin
+{
+    text-align: center;
+    font-size: small;
+    margin-top: 25px;
+}
+span a
+{
+    text-decoration: none;
+    font-weight: 900;
+    color: #000;
+    transition: .5s;
+}
+span a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+@media only screen and(max-width:768px){
+    .side-image{
+        border-radius: 10px 10px 0 0;
+    }
+   
+    #signup{
+        max-width: 420px;
+        width: 100%;
+    }
+    
+}

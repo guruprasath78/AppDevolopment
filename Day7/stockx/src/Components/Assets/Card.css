@@ -1,0 +1,86 @@
+/* ProductCard Container */
+.product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    display: inline-block; /* Display products inline */
+    vertical-align: top; /* Align products to the top */
+    width: calc(33.33% - 20px); /* Set width for each product (adjust as needed) */
+    box-sizing: border-box;
+    height: 95vh;
+  }
+  
+  /* Product Image */
+  .product-image {
+    width: 100%; /* Set image width to 100% of the product card */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+  }
+  
+  /* Product Name */
+  .product-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Product Price */
+  .product-card p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  /* View Description Button */
+  .product-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Product Modal */
+  .product-modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Close Button */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #777;
+  }
+  
+  .close:hover {
+    color: #333;
+  }
+  

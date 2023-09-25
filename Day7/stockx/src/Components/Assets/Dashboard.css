@@ -1,0 +1,91 @@
+/* Dashboard Container */
+.dashboard {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Dashboard Title */
+  .dashboard h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Dashboard Stats */
+  .dashboard-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dashboard-stat {
+    background-color: #007bff; /* Blue background color */
+    border: 1px solid #007bff; /* Matching border color */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Text color on the blue background */
+  }
+  
+  .dashboard-stat h2 {
+    font-size: 20px;
+    color: #fff; /* Text color on the blue background */
+  }
+  
+  .dashboard-stat p {
+    font-size: 18px;
+    color: #fff; /* Text color on the blue background */
+  }
+  
+  /* Category Links */
+  .category-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .category-links a {
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .category-links a:hover {
+    background-color: #fff; /* White background on hover */
+    color: #007bff;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust the layout for smaller screens */
+    .dashboard-stat {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Further adjustments for extra small screens */
+    .dashboard-stat {
+      padding: 15px;
+      margin: 5px;
+    }
+  
+    .dashboard-stat h2 {
+      font-size: 18px;
+    }
+  
+    .dashboard-stat p {
+      font-size: 16px;
+    }
+  }
+  
