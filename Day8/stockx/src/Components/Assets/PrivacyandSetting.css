@@ -1,0 +1,91 @@
+/* Privacy and Settings Container */
+.privacy-settings-container {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Privacy and Settings Content */
+.privacy-settings-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+/* Privacy and Settings Header */
+.privacy-settings-header {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.privacy-settings-title {
+  font-size: 36px;
+  color: #333;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Privacy and Settings Sections */
+.privacy-settings-section,
+.settings-section {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Privacy and Settings Content */
+.privacy-content,
+.settings-content {
+  /* Add your specific styles here for content within these sections */
+}
+
+/* Navigation Links */
+.navigation-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+/* PrivacyandSetting.css */
+
+.button-style {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff; /* Set the background color to blue */
+  color: #fff; /* Set the text color to white */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  font-size: 16px; /* Adjust the font size as needed */
+  transition: background-color 0.3s ease; /* Add a smooth transition for the background color */
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-style:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+.link:hover {
+  background-color: #0056b3;
+}
