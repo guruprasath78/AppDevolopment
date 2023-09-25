@@ -1,0 +1,40 @@
+/* Custom CSS for Home Component */
+
+/* Make text colorful */
+.welcome-text {
+    color: #007bff; /* Blue color */
+  }
+  
+  .description {
+    color: #333; /* Dark gray color */
+  }
+  
+  /* Add padding to feature icons for spacing */
+  .feature-icon {
+    padding: 20px 0;
+  }
+  
+  /* Make feature titles colorful */
+  .feature-title {
+    color: #28a745; /* Green color */
+  }
+  
+  /* Increase font size for feature titles on smaller screens */
+  @media (max-width: 768px) {
+    .feature-title {
+      font-size: 24px;
+    }
+  }
+  
+  /* Make feature descriptions colorful */
+  .feature-description {
+    color: #ff6b6b; /* Red color */
+  }
+  
+  /* Increase font size for feature descriptions on smaller screens */
+  @media (max-width: 768px) {
+    .feature-description {
+      font-size: 18px;
+    }
+  }
+  

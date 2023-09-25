@@ -1,0 +1,43 @@
+/* Base styles for all screen sizes */
+.faq-title {
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+.faq-container {
+  margin-top: 20px;
+}
+
+.faq-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.answer {
+  font-size: 18px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .faq-title {
+    font-size: 28px;
+  }
+
+  .faq-item {
+    padding: 15px;
+  }
+
+  .question {
+    font-size: 22px;
+  }
+
+  .answer {
+    font-size: 16px;
+  }
+}
