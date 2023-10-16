@@ -1,0 +1,14 @@
+#homec {
+    background-color: transparent;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the top-left corner */
+    justify-content: flex-start; /* Align content to the top-left corner */
+}
+
+#homec h1 {
+    font-size: 300%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
